@@ -6,3 +6,5 @@ export const getAllPokemon = (url) => {
       .catch((error) => reject(error));
   });
 };
+
+export const getPokemon = () => {};
