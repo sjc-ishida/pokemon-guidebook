@@ -35,7 +35,17 @@ function App() {
 
   // console.log(pokemonData);
 
-  const handlePrevPage = () => {};
+  const handlePrevPage = async () => {
+    if (!prevURL) return;
+
+    setLoading(true);
+    let data = await getAllPokemon(prevURL);
+    await loadPokemon(data.results);
+    setNextURL(data.next);
+    setPrevURL(data.previous);
+    setLoading(false);
+  };
+
   const handleNextPage = async () => {
     setLoading(true);
     let data = await getAllPokemon(nextURL);
