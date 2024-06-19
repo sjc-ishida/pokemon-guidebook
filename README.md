@@ -4,7 +4,7 @@ This web application is simple Pokemon guide book.
 
 ```zsh
 git clone git@github.com:sjc-ishida/pokemon-guidebook.git
-cd pokemon-guidbook
+cd pokemon-guidebook
 docker compose up
 ```
 
