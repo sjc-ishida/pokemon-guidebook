@@ -1,3 +1,17 @@
+# Introduction.
+
+This web application is simple Pokemon guide book.
+
+```zsh
+git clone git@github.com:sjc-ishida/pokemon-guidbook.git
+cd pokemon-guidbook
+docker compose up
+```
+
+After that, You can open following url on your browser.
+
+http://localhost:3000
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
